@@ -1,0 +1,679 @@
+11:11:15.240 [main] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+11:11:15.353 [main] INFO  restAssuredTests.RestAssuredTestCases - Get Access Token ....
+11:11:26.696 [main] INFO  restAssuredTests.RestAssuredTestCases - Access Token: acd2d7e05e649670b47340a0023d3b0b5c066225ab8cf06ab3f1ce34d742b1f1
+11:11:26.730 [main] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkThatUserSubmitsNewOrder...
+11:11:27.612 [main] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "created": true,
+    "orderId": "bLk07C9YqkQaVB7lsNyH9"
+}
+11:11:27.616 [main] INFO  restAssuredTests.RestAssuredTestCases - End Test checkThatUserSubmitsNewOrder with orderId: bLk07C9YqkQaVB7lsNyH9
+11:11:27.617 [main] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+11:11:27.631 [main] INFO  restAssuredTests.RestAssuredTestCases - Start Test CheckThatUserDeleteOrder...
+11:11:29.476 [main] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "error": "No order with id bLk07C9YqkQaVB7lsNyH9."
+}
+11:11:29.476 [main] INFO  restAssuredTests.RestAssuredTestCases - End Test CheckThatUserDeleteOrder......
+11:11:29.482 [main] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+11:11:29.485 [main] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkThatUserSubmitsNewOrder...
+11:11:30.292 [main] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "created": true,
+    "orderId": "L2BNbVqBKll2SfKdaz7wh"
+}
+11:11:30.293 [main] INFO  restAssuredTests.RestAssuredTestCases - End Test checkThatUserSubmitsNewOrder with orderId: L2BNbVqBKll2SfKdaz7wh
+11:11:30.293 [main] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+11:11:30.295 [main] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkUpdateOrderbyOrderID...
+11:11:30.295 [main] INFO  restAssuredTests.RestAssuredTestCases - Update order: L2BNbVqBKll2SfKdaz7wh with the customer name to be: client2024-01-23_11-11-15-AM
+11:11:32.173 [main] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "id": "L2BNbVqBKll2SfKdaz7wh",
+    "bookId": 6,
+    "customerName": "client2024-01-23_11-11-15-AM",
+    "createdBy": "9c329202bc118e19129220d5bed2f59426e36022d91486f191987ecd4d392325",
+    "quantity": 1,
+    "timestamp": 1706001244413
+}
+11:11:32.217 [main] INFO  restAssuredTests.RestAssuredTestCases - End Test checkUpdateOrderbyOrderID......
+11:11:32.220 [main] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:55:07.664 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:55:07.664 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:55:07.675 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Get Access Token ....
+04:55:07.675 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Get Access Token ....
+04:55:14.694 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Access Token: null
+04:55:14.707 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Access Token: 43a29960b7a3943af10f8f8ccd9bd184ee152db1cdb029881b98cd922cb55960
+04:55:14.716 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkThatUserSubmitsNewOrder...
+04:55:14.716 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkThatUserSubmitsNewOrder...
+04:55:15.711 [TestNG-tests-2] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "created": true,
+    "orderId": "O4qQ72I5rYhvlYqSU0Pwb"
+}
+04:55:15.719 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - End Test checkThatUserSubmitsNewOrder with orderId: O4qQ72I5rYhvlYqSU0Pwb
+04:55:15.719 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:55:15.728 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Start Test CheckThatUserDeleteOrder...
+04:55:16.226 [TestNG-tests-1] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "created": true,
+    "orderId": "nrX6y9fLvYMstM8THvtJn"
+}
+04:55:16.226 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - End Test checkThatUserSubmitsNewOrder with orderId: nrX6y9fLvYMstM8THvtJn
+04:55:16.227 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:55:16.228 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test CheckThatUserDeleteOrder...
+04:55:17.644 [TestNG-tests-2] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "error": "No order with id nrX6y9fLvYMstM8THvtJn."
+}
+04:55:17.644 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - End Test CheckThatUserDeleteOrder......
+04:55:17.650 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:55:17.653 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkThatUserSubmitsNewOrder...
+04:55:18.258 [TestNG-tests-1] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "error": "No order with id nrX6y9fLvYMstM8THvtJn."
+}
+04:55:18.258 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - End Test CheckThatUserDeleteOrder......
+04:55:18.261 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:55:18.264 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkThatUserSubmitsNewOrder...
+04:55:18.620 [TestNG-tests-2] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "created": true,
+    "orderId": "RRzOeQfhKFZFqcnkFabtl"
+}
+04:55:18.620 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - End Test checkThatUserSubmitsNewOrder with orderId: RRzOeQfhKFZFqcnkFabtl
+04:55:18.621 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:55:18.622 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkUpdateOrderbyOrderID...
+04:55:18.623 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Update order: RRzOeQfhKFZFqcnkFabtl with the customer name to be: client2024-01-24_4-55-07-AM
+04:55:19.285 [TestNG-tests-1] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "created": true,
+    "orderId": "XzB17qLK72M5iEHpXsbXp"
+}
+04:55:19.285 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - End Test checkThatUserSubmitsNewOrder with orderId: XzB17qLK72M5iEHpXsbXp
+04:55:19.286 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:55:19.288 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkUpdateOrderbyOrderID...
+04:55:19.288 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Update order: XzB17qLK72M5iEHpXsbXp with the customer name to be: client2024-01-24_4-55-07-AM
+04:55:20.504 [TestNG-tests-2] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "id": "XzB17qLK72M5iEHpXsbXp",
+    "bookId": 6,
+    "customerName": "client2024-01-24_4-55-07-AM",
+    "createdBy": "2da79e2f07c6affa29ad46ce6a419114a63736f8105b8de394e825fee6755fcf",
+    "quantity": 1,
+    "timestamp": 1706065074738
+}
+04:55:20.531 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - End Test checkUpdateOrderbyOrderID......
+04:55:20.536 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:55:21.111 [TestNG-tests-1] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "id": "XzB17qLK72M5iEHpXsbXp",
+    "bookId": 6,
+    "customerName": "client2024-01-24_4-55-07-AM",
+    "createdBy": "2da79e2f07c6affa29ad46ce6a419114a63736f8105b8de394e825fee6755fcf",
+    "quantity": 1,
+    "timestamp": 1706065074738
+}
+04:55:21.144 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - End Test checkUpdateOrderbyOrderID......
+04:55:21.149 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+05:07:14.087 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+05:07:14.100 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Get Access Token ....
+05:10:46.368 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+05:10:46.380 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Get Access Token ....
+05:10:53.689 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Access Token: e48080de99e2c47d3ecb5bdf053bc390341be9214a244d8845b26e0a162636d5
+05:10:53.716 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkThatUserSubmitsNewOrder...
+05:10:55.050 [TestNG-tests-1] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "created": true,
+    "orderId": "D-q4dw-_qLJuZPCbgfEqD"
+}
+05:10:55.057 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - End Test checkThatUserSubmitsNewOrder with orderId: D-q4dw-_qLJuZPCbgfEqD
+05:10:55.057 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+05:10:55.067 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test CheckThatUserDeleteOrder...
+05:10:57.636 [TestNG-tests-1] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "error": "No order with id D-q4dw-_qLJuZPCbgfEqD."
+}
+05:10:57.637 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - End Test CheckThatUserDeleteOrder......
+05:10:57.647 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+05:10:57.651 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkThatUserSubmitsNewOrder...
+05:10:58.731 [TestNG-tests-1] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "created": true,
+    "orderId": "5xb0gd6mq69T2USNyCTk8"
+}
+05:10:58.732 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - End Test checkThatUserSubmitsNewOrder with orderId: 5xb0gd6mq69T2USNyCTk8
+05:10:58.733 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+05:10:58.735 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkUpdateOrderbyOrderID...
+05:10:58.737 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Update order: 5xb0gd6mq69T2USNyCTk8 with the customer name to be: client2024-01-24_5-10-46-AM
+05:11:00.899 [TestNG-tests-1] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "id": "5xb0gd6mq69T2USNyCTk8",
+    "bookId": 6,
+    "customerName": "client2024-01-24_5-10-46-AM",
+    "createdBy": "371c582744cf98c7602b9d80430833c537761adfeddc04641b2e9942dfafcad7",
+    "quantity": 1,
+    "timestamp": 1706066014236
+}
+05:11:00.948 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - End Test checkUpdateOrderbyOrderID......
+05:11:00.951 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+05:17:04.676 [main] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+05:17:04.687 [main] INFO  restAssuredTests.RestAssuredTestCases - Get Access Token ....
+05:17:10.757 [main] INFO  restAssuredTests.RestAssuredTestCases - Access Token: c793d373f779f7df28bbaa765dbfb5c717d06ef4b1af5760ef4350b3060be87c
+05:17:10.779 [main] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkThatUserSubmitsNewOrder...
+05:17:12.089 [main] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "created": true,
+    "orderId": "T2-ZeZR7vO8Dwm7xN7Zrn"
+}
+05:17:12.093 [main] INFO  restAssuredTests.RestAssuredTestCases - End Test checkThatUserSubmitsNewOrder with orderId: T2-ZeZR7vO8Dwm7xN7Zrn
+05:17:12.094 [main] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+05:17:12.101 [main] INFO  restAssuredTests.RestAssuredTestCases - Start Test CheckThatUserDeleteOrder...
+05:17:14.435 [main] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "error": "No order with id T2-ZeZR7vO8Dwm7xN7Zrn."
+}
+05:17:14.435 [main] INFO  restAssuredTests.RestAssuredTestCases - End Test CheckThatUserDeleteOrder......
+05:17:14.440 [main] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+05:17:14.443 [main] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkThatUserSubmitsNewOrder...
+05:17:15.509 [main] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "created": true,
+    "orderId": "ibTNXvcJ-Mee6ceXhjra5"
+}
+05:17:15.509 [main] INFO  restAssuredTests.RestAssuredTestCases - End Test checkThatUserSubmitsNewOrder with orderId: ibTNXvcJ-Mee6ceXhjra5
+05:17:15.509 [main] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+05:17:15.512 [main] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkUpdateOrderbyOrderID...
+05:17:15.512 [main] INFO  restAssuredTests.RestAssuredTestCases - Update order: ibTNXvcJ-Mee6ceXhjra5 with the customer name to be: client2024-01-24_5-17-04-AM
+05:17:17.599 [main] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "id": "ibTNXvcJ-Mee6ceXhjra5",
+    "bookId": 6,
+    "customerName": "client2024-01-24_5-17-04-AM",
+    "createdBy": "c9e2fcc7bfed3bbb80372d9729001a47f1c4dab176fd020d37dd6b8ed77cf6e3",
+    "quantity": 1,
+    "timestamp": 1706066391018
+}
+05:17:17.637 [main] INFO  restAssuredTests.RestAssuredTestCases - End Test checkUpdateOrderbyOrderID......
+05:17:17.640 [main] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+20:50:39.064 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+20:50:39.080 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Get Access Token ....
+20:50:46.182 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Access Token: 19ac260a9a5823a8bd782e2fa89ffeba8e52e50996a675d72a33e586c57ff452
+20:50:46.220 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkThatUserSubmitsNewOrder...
+20:50:47.801 [TestNG-tests-1] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "created": true,
+    "orderId": "wKSNZiE_FOGdSDcjpo4z3"
+}
+20:50:47.810 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - End Test checkThatUserSubmitsNewOrder with orderId: wKSNZiE_FOGdSDcjpo4z3
+20:50:47.811 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+20:50:48.940 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test CheckThatUserDeleteOrder...
+20:50:51.150 [TestNG-tests-1] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "error": "No order with id wKSNZiE_FOGdSDcjpo4z3."
+}
+20:50:51.150 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - End Test CheckThatUserDeleteOrder......
+20:50:51.186 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+20:50:51.200 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkThatUserSubmitsNewOrder...
+20:50:52.233 [TestNG-tests-1] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "created": true,
+    "orderId": "HpZ8qmqRz523i5k63OYQG"
+}
+20:50:52.234 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - End Test checkThatUserSubmitsNewOrder with orderId: HpZ8qmqRz523i5k63OYQG
+20:50:52.234 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+20:50:52.242 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkUpdateOrderbyOrderID...
+20:50:52.243 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Update order: HpZ8qmqRz523i5k63OYQG with the customer name to be: client2024-01-25_8-50-39-PM
+20:50:54.115 [TestNG-tests-1] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "id": "HpZ8qmqRz523i5k63OYQG",
+    "bookId": 6,
+    "customerName": "client2024-01-25_8-50-39-PM",
+    "createdBy": "ffdee127ec40de71fc641cb8e5fb2382a639c5bd785246aa4cd8f3629a34a421",
+    "quantity": 1,
+    "timestamp": 1706208809355
+}
+20:50:54.168 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - End Test checkUpdateOrderbyOrderID......
+20:50:54.192 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+20:53:39.269 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+20:53:39.282 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Get Access Token ....
+20:53:48.722 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Access Token: fd2799f2459a025be8b0bf8f0df6000f52da4b7364edf3dda07071817ae2d20a
+20:53:48.758 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkThatUserSubmitsNewOrder...
+20:53:50.172 [TestNG-tests-1] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "created": true,
+    "orderId": "ml4Ws4YU3D9_GjB9dFa3e"
+}
+20:53:50.179 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - End Test checkThatUserSubmitsNewOrder with orderId: ml4Ws4YU3D9_GjB9dFa3e
+20:53:50.179 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+20:53:50.392 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test CheckThatUserDeleteOrder...
+20:53:52.284 [TestNG-tests-1] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "error": "No order with id ml4Ws4YU3D9_GjB9dFa3e."
+}
+20:53:52.285 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - End Test CheckThatUserDeleteOrder......
+20:53:52.328 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+20:53:52.352 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkThatUserSubmitsNewOrder...
+20:53:53.315 [TestNG-tests-1] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "created": true,
+    "orderId": "eTOd_iLsevbiDGstT3528"
+}
+20:53:53.316 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - End Test checkThatUserSubmitsNewOrder with orderId: eTOd_iLsevbiDGstT3528
+20:53:53.317 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+20:53:53.322 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkUpdateOrderbyOrderID...
+20:53:53.323 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Update order: eTOd_iLsevbiDGstT3528 with the customer name to be: client2024-01-25_8-53-39-PM
+20:53:55.168 [TestNG-tests-1] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "id": "eTOd_iLsevbiDGstT3528",
+    "bookId": 6,
+    "customerName": "client2024-01-25_8-53-39-PM",
+    "createdBy": "dc5c44b22a5cf97427dbea3a1c765c9d0bd62ea382b5d65b8d5e33f0f3f27f83",
+    "quantity": 1,
+    "timestamp": 1706208990503
+}
+20:53:55.205 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - End Test checkUpdateOrderbyOrderID......
+20:53:55.230 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+02:43:19.551 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+02:43:19.576 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Get Access Token ....
+02:43:26.141 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Access Token: 56c0109789d507dbfeec1a626bb751153ea457558797cd7e5cfd8db07ff98aed
+02:43:26.165 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkThatUserSubmitsNewOrder...
+02:43:27.244 [TestNG-tests-1] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "created": true,
+    "orderId": "BRpUau2JFMgUTypRsGeio"
+}
+02:43:27.248 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - End Test checkThatUserSubmitsNewOrder with orderId: BRpUau2JFMgUTypRsGeio
+02:43:27.249 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+02:43:27.323 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test CheckThatUserDeleteOrder...
+02:43:29.620 [TestNG-tests-1] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "error": "No order with id BRpUau2JFMgUTypRsGeio."
+}
+02:43:29.621 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - End Test CheckThatUserDeleteOrder......
+02:43:29.646 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+02:43:29.660 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkThatUserSubmitsNewOrder...
+02:43:30.652 [TestNG-tests-1] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "created": true,
+    "orderId": "CZwJAgL0MzVPg3GlBFQXL"
+}
+02:43:30.652 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - End Test checkThatUserSubmitsNewOrder with orderId: CZwJAgL0MzVPg3GlBFQXL
+02:43:30.653 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+02:43:30.658 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkUpdateOrderbyOrderID...
+02:43:30.658 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Update order: CZwJAgL0MzVPg3GlBFQXL with the customer name to be: client2024-01-26_2-43-19-AM
+02:43:32.483 [TestNG-tests-1] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "id": "CZwJAgL0MzVPg3GlBFQXL",
+    "bookId": 6,
+    "customerName": "client2024-01-26_2-43-19-AM",
+    "createdBy": "0acbec22816045adfa9c0f64483cab26ea2ad78fa0917404ca74b99fc2fde58e",
+    "quantity": 1,
+    "timestamp": 1706229967660
+}
+02:43:32.517 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - End Test checkUpdateOrderbyOrderID......
+02:43:32.522 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+02:46:55.162 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+02:46:55.174 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Get Access Token ....
+02:46:55.170 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+02:46:55.198 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Get Access Token ....
+02:50:04.061 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+02:50:04.075 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Get Access Token ....
+02:50:04.061 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+02:50:04.076 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Get Access Token ....
+02:50:10.407 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Access Token: null
+02:50:10.409 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Access Token: dfe5f47beab3c679160da580412df544b80cb7f3de3cea0a74ecfd059326c734
+02:50:10.433 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkThatUserSubmitsNewOrder...
+02:50:10.434 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkThatUserSubmitsNewOrder...
+02:50:11.374 [TestNG-tests-1] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "created": true,
+    "orderId": "nktKpsynBWrg5ujJjVG_E"
+}
+02:50:11.378 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - End Test checkThatUserSubmitsNewOrder with orderId: nktKpsynBWrg5ujJjVG_E
+02:50:11.379 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+02:50:11.388 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test CheckThatUserDeleteOrder...
+02:50:11.840 [TestNG-tests-2] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "created": true,
+    "orderId": "l3zU3RtuhPeGDu78mVcjC"
+}
+02:50:11.841 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - End Test checkThatUserSubmitsNewOrder with orderId: l3zU3RtuhPeGDu78mVcjC
+02:50:11.841 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+02:50:11.843 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Start Test CheckThatUserDeleteOrder...
+02:50:13.079 [TestNG-tests-1] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "error": "No order with id l3zU3RtuhPeGDu78mVcjC."
+}
+02:50:13.079 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - End Test CheckThatUserDeleteOrder......
+02:50:13.084 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+02:50:13.086 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkThatUserSubmitsNewOrder...
+02:50:13.428 [TestNG-tests-2] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "error": "No order with id l3zU3RtuhPeGDu78mVcjC."
+}
+02:50:13.429 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - End Test CheckThatUserDeleteOrder......
+02:50:13.433 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+02:50:13.435 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkThatUserSubmitsNewOrder...
+02:50:13.936 [TestNG-tests-1] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "created": true,
+    "orderId": "cAG7zMegm6qhNQkz6P7Rj"
+}
+02:50:13.936 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - End Test checkThatUserSubmitsNewOrder with orderId: cAG7zMegm6qhNQkz6P7Rj
+02:50:13.937 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+02:50:13.938 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkUpdateOrderbyOrderID...
+02:50:13.939 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Update order: cAG7zMegm6qhNQkz6P7Rj with the customer name to be: client2024-01-26_2-50-04-AM
+02:50:14.239 [TestNG-tests-2] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "created": true,
+    "orderId": "QdGsGMZoDkU1Z_5tg5q1k"
+}
+02:50:14.240 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - End Test checkThatUserSubmitsNewOrder with orderId: QdGsGMZoDkU1Z_5tg5q1k
+02:50:14.240 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+02:50:14.241 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkUpdateOrderbyOrderID...
+02:50:14.242 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Update order: QdGsGMZoDkU1Z_5tg5q1k with the customer name to be: client2024-01-26_2-50-04-AM
+02:50:15.459 [TestNG-tests-1] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "id": "QdGsGMZoDkU1Z_5tg5q1k",
+    "bookId": 6,
+    "customerName": "client2024-01-26_2-50-04-AM",
+    "createdBy": "fc8610139b6839e8272c4e75ec62818e40862bcc266f2cb674c0e1f5050a80fb",
+    "quantity": 1,
+    "timestamp": 1706230371287
+}
+02:50:15.491 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - End Test checkUpdateOrderbyOrderID......
+02:50:15.495 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+02:50:15.780 [TestNG-tests-2] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "id": "QdGsGMZoDkU1Z_5tg5q1k",
+    "bookId": 6,
+    "customerName": "client2024-01-26_2-50-04-AM",
+    "createdBy": "fc8610139b6839e8272c4e75ec62818e40862bcc266f2cb674c0e1f5050a80fb",
+    "quantity": 1,
+    "timestamp": 1706230371287
+}
+02:50:15.819 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - End Test checkUpdateOrderbyOrderID......
+02:50:15.824 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:02:07.564 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:02:07.564 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:02:07.574 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Get Access Token ....
+04:02:07.574 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Get Access Token ....
+04:02:13.854 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Access Token: null
+04:02:13.855 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Access Token: 86c91ca104ebfd521342a40bfbe423e9c739df2cf4756c4acf0e1b3aab1b6bbc
+04:02:13.878 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkThatUserSubmitsNewOrder...
+04:02:13.878 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkThatUserSubmitsNewOrder...
+04:02:14.827 [TestNG-tests-1] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "created": true,
+    "orderId": "8FpfS5ejjwEOOv3QOXJEI"
+}
+04:02:14.831 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - End Test checkThatUserSubmitsNewOrder with orderId: 8FpfS5ejjwEOOv3QOXJEI
+04:02:14.832 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:02:14.840 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test CheckThatUserDeleteOrder...
+04:02:15.272 [TestNG-tests-2] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "created": true,
+    "orderId": "v3v922eLI__LJ3uW0c-Lb"
+}
+04:02:15.273 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - End Test checkThatUserSubmitsNewOrder with orderId: v3v922eLI__LJ3uW0c-Lb
+04:02:15.273 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:02:15.274 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Start Test CheckThatUserDeleteOrder...
+04:02:16.657 [TestNG-tests-1] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "error": "No order with id v3v922eLI__LJ3uW0c-Lb."
+}
+04:02:16.658 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - End Test CheckThatUserDeleteOrder......
+04:02:16.662 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:02:16.664 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkThatUserSubmitsNewOrder...
+04:02:17.040 [TestNG-tests-2] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "error": "No order with id v3v922eLI__LJ3uW0c-Lb."
+}
+04:02:17.040 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - End Test CheckThatUserDeleteOrder......
+04:02:17.042 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:02:17.045 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkThatUserSubmitsNewOrder...
+04:02:17.445 [TestNG-tests-1] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "created": true,
+    "orderId": "tQg01XrQQtuagjjYskM6B"
+}
+04:02:17.446 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - End Test checkThatUserSubmitsNewOrder with orderId: tQg01XrQQtuagjjYskM6B
+04:02:17.446 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:02:17.447 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkUpdateOrderbyOrderID...
+04:02:17.448 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Update order: tQg01XrQQtuagjjYskM6B with the customer name to be: client2024-01-26_4-2-07-AM
+04:02:17.838 [TestNG-tests-2] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "created": true,
+    "orderId": "J4_LdZxv3p7mYOKlbHaEr"
+}
+04:02:17.838 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - End Test checkThatUserSubmitsNewOrder with orderId: J4_LdZxv3p7mYOKlbHaEr
+04:02:17.838 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:02:17.840 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkUpdateOrderbyOrderID...
+04:02:17.840 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Update order: J4_LdZxv3p7mYOKlbHaEr with the customer name to be: client2024-01-26_4-2-07-AM
+04:02:19.249 [TestNG-tests-1] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "id": "J4_LdZxv3p7mYOKlbHaEr",
+    "bookId": 6,
+    "customerName": "client2024-01-26_4-2-07-AM",
+    "createdBy": "c8431efccc930b69ae79b5c4f75b6d9fbdd72eb25c0ca5bb317a117459d43f8b",
+    "quantity": 1,
+    "timestamp": 1706234694882
+}
+04:02:19.281 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - End Test checkUpdateOrderbyOrderID......
+04:02:19.284 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:02:19.629 [TestNG-tests-2] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "id": "J4_LdZxv3p7mYOKlbHaEr",
+    "bookId": 6,
+    "customerName": "client2024-01-26_4-2-07-AM",
+    "createdBy": "c8431efccc930b69ae79b5c4f75b6d9fbdd72eb25c0ca5bb317a117459d43f8b",
+    "quantity": 1,
+    "timestamp": 1706234694882
+}
+04:02:19.657 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - End Test checkUpdateOrderbyOrderID......
+04:02:19.661 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:04:45.035 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:04:45.035 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:04:45.046 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Get Access Token ....
+04:04:45.046 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Get Access Token ....
+04:04:50.710 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Access Token: null
+04:04:50.712 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Access Token: 8ea7b8895a190f9bc9b221377c1c60de98f82b8311e6b1d3902aa287b4bd922c
+04:04:50.734 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkThatUserSubmitsNewOrder...
+04:04:50.742 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkThatUserSubmitsNewOrder...
+04:04:51.694 [TestNG-tests-2] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "created": true,
+    "orderId": "pQjzusvTYmLJjwNE3t08n"
+}
+04:04:51.698 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - End Test checkThatUserSubmitsNewOrder with orderId: pQjzusvTYmLJjwNE3t08n
+04:04:51.699 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:04:51.706 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Start Test CheckThatUserDeleteOrder...
+04:04:52.053 [TestNG-tests-1] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "created": true,
+    "orderId": "VQt1gbN7TaBnA7K0RkpzA"
+}
+04:04:52.053 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - End Test checkThatUserSubmitsNewOrder with orderId: VQt1gbN7TaBnA7K0RkpzA
+04:04:52.054 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:04:52.057 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test CheckThatUserDeleteOrder...
+04:04:53.351 [TestNG-tests-2] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "error": "No order with id VQt1gbN7TaBnA7K0RkpzA."
+}
+04:04:53.351 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - End Test CheckThatUserDeleteOrder......
+04:04:53.356 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:04:53.358 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkThatUserSubmitsNewOrder...
+04:04:53.784 [TestNG-tests-1] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "error": "No order with id VQt1gbN7TaBnA7K0RkpzA."
+}
+04:04:53.785 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - End Test CheckThatUserDeleteOrder......
+04:04:53.788 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:04:53.790 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkThatUserSubmitsNewOrder...
+04:04:54.141 [TestNG-tests-2] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "created": true,
+    "orderId": "1ljmZazS21BwH7KSYvzUD"
+}
+04:04:54.141 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - End Test checkThatUserSubmitsNewOrder with orderId: 1ljmZazS21BwH7KSYvzUD
+04:04:54.141 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:04:54.143 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkUpdateOrderbyOrderID...
+04:04:54.144 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Update order: 1ljmZazS21BwH7KSYvzUD with the customer name to be: client2024-01-26_4-4-45-AM
+04:04:54.657 [TestNG-tests-1] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "created": true,
+    "orderId": "IDti_WAnPKC_Jxis9RGkm"
+}
+04:04:54.658 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - End Test checkThatUserSubmitsNewOrder with orderId: IDti_WAnPKC_Jxis9RGkm
+04:04:54.658 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:04:54.659 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkUpdateOrderbyOrderID...
+04:04:54.659 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Update order: IDti_WAnPKC_Jxis9RGkm with the customer name to be: client2024-01-26_4-4-45-AM
+04:04:55.836 [TestNG-tests-2] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "id": "IDti_WAnPKC_Jxis9RGkm",
+    "bookId": 6,
+    "customerName": "client2024-01-26_4-4-45-AM",
+    "createdBy": "41df8154e82cb0ea325c5259274eb1d3ce9f29033f80c656c207167279489dc1",
+    "quantity": 1,
+    "timestamp": 1706234851664
+}
+04:04:55.869 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - End Test checkUpdateOrderbyOrderID......
+04:04:55.872 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:04:56.425 [TestNG-tests-1] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "id": "IDti_WAnPKC_Jxis9RGkm",
+    "bookId": 6,
+    "customerName": "client2024-01-26_4-4-45-AM",
+    "createdBy": "41df8154e82cb0ea325c5259274eb1d3ce9f29033f80c656c207167279489dc1",
+    "quantity": 1,
+    "timestamp": 1706234851664
+}
+04:04:56.460 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - End Test checkUpdateOrderbyOrderID......
+04:04:56.463 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:17:22.633 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:17:22.633 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:17:22.645 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Get Access Token ....
+04:17:22.645 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Get Access Token ....
+04:17:28.489 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Access Token: null
+04:17:28.499 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Access Token: 7790ffc49cb6724f5a68164653517116cf7a6ec4720ae51f47d3d8cbc8a98ebf
+04:17:28.520 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkThatUserSubmitsNewOrder...
+04:17:28.539 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkThatUserSubmitsNewOrder...
+04:17:29.511 [TestNG-tests-1] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "created": true,
+    "orderId": "aDT344WFpntqfJLcxDrhJ"
+}
+04:17:29.515 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - End Test checkThatUserSubmitsNewOrder with orderId: aDT344WFpntqfJLcxDrhJ
+04:17:29.516 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:17:29.523 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test CheckThatUserDeleteOrder...
+04:17:30.046 [TestNG-tests-2] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "created": true,
+    "orderId": "CeoGEl-8T80BswZu_evbh"
+}
+04:17:30.047 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - End Test checkThatUserSubmitsNewOrder with orderId: CeoGEl-8T80BswZu_evbh
+04:17:30.047 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:17:30.050 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Start Test CheckThatUserDeleteOrder...
+04:17:31.400 [TestNG-tests-1] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "error": "No order with id CeoGEl-8T80BswZu_evbh."
+}
+04:17:31.400 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - End Test CheckThatUserDeleteOrder......
+04:17:31.404 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:17:31.406 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkThatUserSubmitsNewOrder...
+04:17:31.959 [TestNG-tests-2] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "error": "No order with id CeoGEl-8T80BswZu_evbh."
+}
+04:17:31.959 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - End Test CheckThatUserDeleteOrder......
+04:17:31.961 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:17:31.963 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkThatUserSubmitsNewOrder...
+04:17:32.260 [TestNG-tests-1] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "created": true,
+    "orderId": "Zmhf_LWkmOntMlwMiHO9Y"
+}
+04:17:32.261 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - End Test checkThatUserSubmitsNewOrder with orderId: Zmhf_LWkmOntMlwMiHO9Y
+04:17:32.261 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:17:32.262 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkUpdateOrderbyOrderID...
+04:17:32.263 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Update order: Zmhf_LWkmOntMlwMiHO9Y with the customer name to be: client2024-01-26_4-17-22-AM
+04:17:32.881 [TestNG-tests-2] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "created": true,
+    "orderId": "60Uq8SgN3NX-Kgzj0bfKG"
+}
+04:17:32.881 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - End Test checkThatUserSubmitsNewOrder with orderId: 60Uq8SgN3NX-Kgzj0bfKG
+04:17:32.882 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:17:32.883 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkUpdateOrderbyOrderID...
+04:17:32.884 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Update order: 60Uq8SgN3NX-Kgzj0bfKG with the customer name to be: client2024-01-26_4-17-22-AM
+04:17:34.265 [TestNG-tests-1] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "id": "60Uq8SgN3NX-Kgzj0bfKG",
+    "bookId": 6,
+    "customerName": "client2024-01-26_4-17-22-AM",
+    "createdBy": "01162e32dd17e816f480e09bd9a9b40bed26b09c07ecedee77968e1ab7fd6de8",
+    "quantity": 1,
+    "timestamp": 1706235609849
+}
+04:17:34.297 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - End Test checkUpdateOrderbyOrderID......
+04:17:34.300 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:17:34.838 [TestNG-tests-2] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "id": "60Uq8SgN3NX-Kgzj0bfKG",
+    "bookId": 6,
+    "customerName": "client2024-01-26_4-17-22-AM",
+    "createdBy": "01162e32dd17e816f480e09bd9a9b40bed26b09c07ecedee77968e1ab7fd6de8",
+    "quantity": 1,
+    "timestamp": 1706235609849
+}
+04:17:34.868 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - End Test checkUpdateOrderbyOrderID......
+04:17:34.874 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:22:52.332 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:22:52.344 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Get Access Token ....
+04:22:52.354 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:22:52.355 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Get Access Token ....
+04:22:58.238 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Access Token: null
+04:22:58.240 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Access Token: 0c77ddb138d6b2c2597c158debbb6b928856c46b1ab589301ccea028725d52db
+04:22:58.262 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkThatUserSubmitsNewOrder...
+04:22:58.262 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkThatUserSubmitsNewOrder...
+04:22:59.114 [TestNG-tests-1] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "created": true,
+    "orderId": "zy736nsyU3Rl35XbLOHWL"
+}
+04:22:59.119 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - End Test checkThatUserSubmitsNewOrder with orderId: zy736nsyU3Rl35XbLOHWL
+04:22:59.120 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:22:59.127 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test CheckThatUserDeleteOrder...
+04:22:59.559 [TestNG-tests-2] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "created": true,
+    "orderId": "J1eOduAF9K1VytTo70MTv"
+}
+04:22:59.560 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - End Test checkThatUserSubmitsNewOrder with orderId: J1eOduAF9K1VytTo70MTv
+04:22:59.560 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:22:59.561 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Start Test CheckThatUserDeleteOrder...
+04:23:00.856 [TestNG-tests-1] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "error": "No order with id J1eOduAF9K1VytTo70MTv."
+}
+04:23:00.857 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - End Test CheckThatUserDeleteOrder......
+04:23:00.860 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:23:00.862 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkThatUserSubmitsNewOrder...
+04:23:01.112 [TestNG-tests-2] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "error": "No order with id J1eOduAF9K1VytTo70MTv."
+}
+04:23:01.113 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - End Test CheckThatUserDeleteOrder......
+04:23:01.115 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:23:01.117 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkThatUserSubmitsNewOrder...
+04:23:01.641 [TestNG-tests-1] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "created": true,
+    "orderId": "RA4WKgmGEmYR5t3esSAPR"
+}
+04:23:01.642 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - End Test checkThatUserSubmitsNewOrder with orderId: RA4WKgmGEmYR5t3esSAPR
+04:23:01.642 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:23:01.644 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkUpdateOrderbyOrderID...
+04:23:01.644 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Update order: RA4WKgmGEmYR5t3esSAPR with the customer name to be: client2024-01-26_4-22-52-AM
+04:23:02.037 [TestNG-tests-2] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "created": true,
+    "orderId": "AWZmYLU3r9nKMA18w8lna"
+}
+04:23:02.037 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - End Test checkThatUserSubmitsNewOrder with orderId: AWZmYLU3r9nKMA18w8lna
+04:23:02.038 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:23:02.039 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkUpdateOrderbyOrderID...
+04:23:02.039 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Update order: AWZmYLU3r9nKMA18w8lna with the customer name to be: client2024-01-26_4-22-52-AM
+04:23:03.235 [TestNG-tests-1] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "id": "AWZmYLU3r9nKMA18w8lna",
+    "bookId": 6,
+    "customerName": "client2024-01-26_4-22-52-AM",
+    "createdBy": "3d9cf3e9bb4569eedd582160cb90ce5dea4e815925559a0a8f08262841fe31a1",
+    "quantity": 1,
+    "timestamp": 1706235938956
+}
+04:23:03.266 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - End Test checkUpdateOrderbyOrderID......
+04:23:03.269 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:23:03.573 [TestNG-tests-2] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "id": "AWZmYLU3r9nKMA18w8lna",
+    "bookId": 6,
+    "customerName": "client2024-01-26_4-22-52-AM",
+    "createdBy": "3d9cf3e9bb4569eedd582160cb90ce5dea4e815925559a0a8f08262841fe31a1",
+    "quantity": 1,
+    "timestamp": 1706235938956
+}
+04:23:03.650 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - End Test checkUpdateOrderbyOrderID......
+04:23:03.655 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:34:09.173 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:34:09.188 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Get Access Token ....
+04:34:09.230 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:34:09.231 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Get Access Token ....
+04:34:16.222 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Access Token: null
+04:34:16.222 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Access Token: 072cd8db3eb75b6135d45b22689564f81fe0a9c526839dd65a31e08732d772e7
+04:34:16.243 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkThatUserSubmitsNewOrder...
+04:34:16.243 [TestNG-tests-2] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkThatUserSubmitsNewOrder...
+04:36:40.185 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:36:40.198 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Get Access Token ....
+04:36:46.103 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Access Token: c4c13d5db054ac088c47297c932718cb85edd8224c82f1a342ac1024065f0228
+04:36:46.127 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkThatUserSubmitsNewOrder...
+04:36:47.004 [TestNG-tests-1] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "created": true,
+    "orderId": "upT81AwGYk_pc_xQIREfN"
+}
+04:36:47.008 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - End Test checkThatUserSubmitsNewOrder with orderId: upT81AwGYk_pc_xQIREfN
+04:36:47.009 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:36:47.017 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test CheckThatUserDeleteOrder...
+04:36:48.710 [TestNG-tests-1] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "error": "No order with id upT81AwGYk_pc_xQIREfN."
+}
+04:36:48.711 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - End Test CheckThatUserDeleteOrder......
+04:36:48.715 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:36:48.718 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkThatUserSubmitsNewOrder...
+04:36:49.564 [TestNG-tests-1] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "created": true,
+    "orderId": "EqdqKDdKQh8ZjkYjVKC6S"
+}
+04:36:49.565 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - End Test checkThatUserSubmitsNewOrder with orderId: EqdqKDdKQh8ZjkYjVKC6S
+04:36:49.565 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------
+04:36:49.566 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Start Test checkUpdateOrderbyOrderID...
+04:36:49.567 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - Update order: EqdqKDdKQh8ZjkYjVKC6S with the customer name to be: client2024-01-26_4-36-40-AM
+04:36:51.106 [TestNG-tests-1] DEBUG restAssuredTests.RestAssuredTestCases - Response Body: {
+    "id": "EqdqKDdKQh8ZjkYjVKC6S",
+    "bookId": 6,
+    "customerName": "client2024-01-26_4-36-40-AM",
+    "createdBy": "1babd71d5b66bbe79b61541ef3398cd59366a83493f6fd4a3a3846e8c479598e",
+    "quantity": 1,
+    "timestamp": 1706236766556
+}
+04:36:51.140 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - End Test checkUpdateOrderbyOrderID......
+04:36:51.143 [TestNG-tests-1] INFO  restAssuredTests.RestAssuredTestCases - ----------------------------------------------------------

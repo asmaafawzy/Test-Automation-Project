@@ -1,0 +1,7 @@
+{
+  "BaseURI": "https://simple-books-api.glitch.me",
+  "clientName": "client",
+  "clientEmail": "email",
+  "bookId": 6,
+  "customerName": "Test Customer"
+}
